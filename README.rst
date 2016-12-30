@@ -1,10 +1,11 @@
-* COMMENT -*- mode: org -*-
-#+Date: 2016-12-30
-Time-stamp: <2016-12-30>
+Creating Custom Jinja2 Filters and Macros
+=========================================
 
-* This project shows how to create custom Jinja2 filters and macros
+.. image:: https://travis-ci.org/python-wells/jinja-custom-filter-and-macro.svg?branch=master
+   :target: https://travis-ci.org/python-wells/jinja-custom-filter-and-macro
 
 Official Documents
+------------------
 
 - Filters
   http://jinja.pocoo.org/docs/dev/templates/#filters
@@ -13,10 +14,14 @@ Official Documents
 
 - List of Builtin Filters
   http://jinja.pocoo.org/docs/dev/templates/#builtin-filters
+
 - Custom Filters
   http://jinja.pocoo.org/docs/dev/api/#custom-filters
 
-* custom blocks is non-trivial in Jinja2
+About custom blocks
+-------------------
+
+Note: custom blocks is non-trivial in Jinja2, no example included.
 
 - Blocks
   http://jinja.pocoo.org/docs/dev/templates/#blocks
