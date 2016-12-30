@@ -1,0 +1,29 @@
+* COMMENT -*- mode: org -*-
+#+Date: 2016-12-30
+Time-stamp: <2016-12-30>
+
+* This project shows how to create custom Jinja2 filters and blocks.
+
+Official Documents
+
+- Filters
+  http://jinja.pocoo.org/docs/dev/templates/#filters
+
+  Filters are functions that apply to value.
+
+- List of Builtin Filters
+  http://jinja.pocoo.org/docs/dev/templates/#builtin-filters
+- Custom Filters
+  http://jinja.pocoo.org/docs/dev/api/#custom-filters
+
+- Blocks
+  http://jinja.pocoo.org/docs/dev/templates/#blocks
+
+  Blocks are used for inheritance and act as both placeholders and
+  replacements at the same time.
+
+- Extensions
+  http://jinja.pocoo.org/docs/dev/extensions/
+
+- Writing Extensions
+  http://jinja.pocoo.org/docs/dev/extensions/#module-jinja2.ext

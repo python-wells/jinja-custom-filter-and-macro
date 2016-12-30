@@ -1,0 +1,4 @@
+{%- macro safe_link(href, content) -%}
+    <a href="{{ href|e }}" rel="noopener noreferrer">{{ content|e }}</a>
+{%- endmacro -%}
+{{ safe_link("http://www.example.com", "Example<1>") }}
