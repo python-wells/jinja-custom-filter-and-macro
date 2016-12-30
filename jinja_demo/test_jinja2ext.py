@@ -25,4 +25,5 @@ def test_filter():
 
 def test_macro():
     assert env.get_template("macro_demo.html").render() == """\
-<a href="http://www.example.com" rel="noopener noreferrer">Example&lt;1&gt;</a>"""
+<a href="http://www.example.com" \
+rel="noopener noreferrer">Example&lt;1&gt;</a>"""
